@@ -13,9 +13,9 @@ const Header = () => {
     setOpenModalContactForm(!openModalContactForm);
   };
   return (
-    <div className="fixed w-[100vw] h-auto top-0 left-0 font-horizon text-xl z-50">
+    <div className="fixed w-full h-auto top-0 left-0 font-horizon text-xl z-50 bg-black text-white">
       <div className="flex flex-row w-full h-auto justify-between items-center p-4">
-        <div className="flex h-auto w-auto">
+        <div className="flex h-auto w-auto pl-4">
           <Link href={"/"}>
             <div className="flex md:hidden lg:hidden xl:hidden flex-row h-auto w-auto text-sm">
             Que visitar en catalunya?

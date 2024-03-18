@@ -17,7 +17,6 @@ const ContactForm = ({ openModalContactForm, setOpenModalContactForm }) => {
   const ref = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [selectedOption, setSelectedOption] = useState("");
   const [messageText, setMessageText] = useState("");
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -57,7 +56,7 @@ const ContactForm = ({ openModalContactForm, setOpenModalContactForm }) => {
 
   const validateForm = () => {
     if (!validateField(name)) {
-      setErrorText(`El campo nombre es requerido.`);
+      setErrorText(`El campo Nombre es requerido.`);
       return false;
     }
 
@@ -144,7 +143,7 @@ const ContactForm = ({ openModalContactForm, setOpenModalContactForm }) => {
       )}
 
       <div
-        className={`flex flex-col w-full min-w-[325px] max-w-[500px] h-[100vh] items-center text-white bg-black overflow-y-scroll md:overflow-y-auto py-4 z-30`}
+        className={`flex flex-col w-auto min-w-[325px] max-w-[450px] h-[100vh] items-center text-white bg-black overflow-y-scroll md:overflow-y-auto py-4 z-30`}
         ref={ref}
       >
         <div className="flex w-full h-auto justify-end pr-8">
@@ -155,7 +154,7 @@ const ContactForm = ({ openModalContactForm, setOpenModalContactForm }) => {
             X
           </button>
         </div>
-        <div className="flex flex-col w-full max-w-[468px] px-6 h-auto">
+        <div className="flex flex-col w-full max-w-[400px] px-6 h-auto">
           <h2 className="text-white text-2xl font-horizon uppercase py-8">
             Cuéntanos
           </h2>
