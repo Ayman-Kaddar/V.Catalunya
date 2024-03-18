@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import LinkedinIcon from "@/public/assets/icons/linkedin_icon.svg";
 
 const Footer = () => {
   return (

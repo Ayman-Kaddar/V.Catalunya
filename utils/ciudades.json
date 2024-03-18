@@ -1,0 +1,313 @@
+[
+    {
+      "id": 1,
+      "nombre": "Casa-Museu Salvador Dalí",
+      "descripcion": "Josep Pla lo afirmó con contundencia:'No creo que haya ninguna, en este país ni en muchos otros países, parecida'. La Casa-Museo Dalí es una modesta vivienda de pescadores en Portlligat, donde el pintor residió y creó habitualmente desde 1930 hasta la muerte de Gala en 1982. Su interior exhibe una estructura laberíntica y numerosas estancias pequeñas, mientras que su decoración está compuesta por objetos inconexos que Dalí fue coleccionando a lo largo de los años. En el exterior, destaca un gigantesco huevo coronando el tejado, concebido por el artista como una representación de una casa 'intrauterina'. Desde la muerte de Dalí, esta casa ha sido convertida en museo y ha recibido la visita de personalidades de la época como Walt Disney o la Duquesa de Windsor.",
+      "image": "assets/images/Casa_Museu_Salvador_Dalí.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Reus",
+      "descripcion": "La ciudad natal de Gaudí se encuentra a 13 kilómetros de Tarragona y alberga algunos de los edificios modernistas más impresionantes de Cataluña, como la majestuosa Casa Navàs, diseñada por Domènech i Montaner, y el Instituto Pere Mata. También merece la pena visitar el Museo Salvador Vilaseca de arqueología, la iglesia de Sant Pere y el Teatro Fortuny. Es conocida como la capital del vermut, así que después de pasear por su animado centro, siéntense en una terraza de la plaza Mercadal y disfruten de este aperitivo antes de dirigirse a alguno de sus excelentes y variados restaurantes para comer o cenar.",
+      "image": "/assets/images/Reus.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Colonia Güell",
+        "descripcion": "El enclave de la Colonia Güell, fundada en 1890 por el industrial textil Eusebi Güell, quien decidió trasladar la fábrica de tejidos de algodón El Vapor Vell desde el barrio de Sants hasta Santa Coloma de Cervelló, consta de la propia colonia, el Centre d’Interpretació y la Cripta Gaudí. Podrán disfrutar de la visita utilizando audioguías o, si así lo prefieren, los domingos y festivos a las doce del mediodía, podrán participar en una visita guiada que abarca todo el conjunto histórico. Los sábados por la mañana se celebra un mercado campesino con productos locales.",
+        "image": "/assets/images/Colonia_Güell.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Castillo de Cardona",
+        "descripcion": "Con un estilo que combina elementos románicos y góticos, pero sobresaliendo por su espectacularidad, esta fortificación medieval se encuentra en un lugar privilegiado y cuenta con dimensiones considerables, siendo testigo de numerosos acontecimientos históricos. Recorrer cada uno de sus rincones es imprescindible, aunque nos ha cautivado especialmente la torre de la Minyona, datada del siglo XI, y la iglesia de Sant Vicenç, que se encuentra en excelente estado de conservación a pesar de sus casi mil años de antigüedad. Para aquellos interesados, existe la posibilidad de hospedarse en el Parador de Turismo, que ocupa una parte del castillo.",
+        "image": "/assets/images/Castillo_de_Cardona.webp"
+    },
+    {
+        "id": 5,
+        "nombre": "Cartuja de Escaladei",
+        "descripcion": "En un paraje singular se encuentra la primera cartuja de toda la Península Ibérica, la de Escaladei (s. XII), una visita imprescindible si te acercas al Priorat. Si bien es cierto que en la actualidad gran parte de la construcción yace en ruinas, aún se pueden apreciar los vestigios de sus tres claustros, uno de los cuales ha sido completamente restaurado, así como la iglesia, el refectorio y una celda reconstruida hasta el más mínimo detalle. Aprovecha también para explorar los alrededores, como la sierra del Montsant. Y no te olvides de probar los vinos elaborados en la zona. ¡No te arrepentirás!",
+        "image": "/assets/images/Cartuja_de_Escaladei.webp"
+    },
+    {
+        "id": 6,
+        "nombre": "Horta de Sant Joan",
+        "descripcion": "Ubicado en la pintoresca comarca de la Terra Alta, este rincón mágico fusiona la inspiración artística que cautivó a figuras como Pablo Picasso con un entorno natural impresionante. Abrazado por las imponentes montañas de Benifassà y atravesado por el sinuoso río Canaletes, Horta de Sant Joan brinda innumerables oportunidades para practicar senderismo, barranquismo y deleitarse con una exquisita oferta gastronómica. Su rico legado histórico y cultural se aprecia en sus adoquinadas calles, encantadoras plazas y en los museos locales como el Centro Picasso y el museo de la batalla del Ebro.",
+        "image": "/assets/images/Horta_de_Sant_Joan.webp"
+    },
+    {
+        "id": 7,
+        "nombre": "Camprodon",
+        "descripcion": "La villa de Camprodon, ubicada en un hermoso valle pirenaico, no solo alberga un centro comercial con algunas calles repletas de tiendas, sino que también posee un gran interés turístico y patrimonial. Uno de los lugares más emblemáticos es el Pont Nou, que atraviesa el río Ter y es fotografiado con frecuencia, siendo uno de los paisajes más icónicos del Pirineo Oriental. Además, el monasterio de Sant Pere, de estilo románico y datado del siglo X, atrae a numerosos visitantes por su belleza arquitectónica e histórica.Camprodon también es conocido por ser el lugar de nacimiento del reconocido compositor Isaac Albéniz, motivo por el cual se ha erigido un museo dedicado íntegramente a su vida y obra en la localidad. Estos elementos hacen de Camprodon un destino turístico imprescindible para aquellos que buscan disfrutar de la naturaleza, la historia y la cultura en un entorno único en los Pirineos.",
+        "image": "/assets/images/Camprodon.webp"
+        
+        
+    },
+    {
+        "id": 8,
+        "nombre": "Aiguamolls de l'Empordà",
+        "descripcion": "Protegidos como Parque Natural, los Aiguamolls abarcan cerca de 5.000 hectáreas y constituyen el hábitat de una gran diversidad de aves. Más de 300 especies han sido avistadas en esta región, entre las cuales 82 residen de forma permanente en sus lagunas y dunas. La cigüeña se erige como el símbolo emblemático del parque, aunque numerosas otras especies de igual belleza se encuentran aquí y no pueden ser avistadas en ningún otro lugar del país. Con el debido respeto, podrán recorrer este espacio para contemplar la fauna en plena libertad durante horas y horas.",
+        "image": "/assets/images/Aiguamolls_emporda.webp"
+    },
+    {
+        "id": 9,
+        "nombre": "El Pedraforca",
+        "descripcion": "Sin duda, el Pedraforca destaca como uno de los montes más emblemáticos de Cataluña. Su importancia no radica tanto en su altura, que alcanza los 2.506 metros, como en su remota ubicación y su característica forma de horca, con dos picos separados por un amplio collado. Contemplarlo en persona ya es una experiencia que vale la pena por sí sola. Sin embargo, si te sientes capacitado físicamente, alcanzar su cima no es un desafío imposible; de hecho, muchos consideran que es una excursión que todo catalán debe emprender al menos una vez en la vida. Para aquellos que no se aventuren en la escalada, siempre queda la opción de sumergirse en las numerosas leyendas que rodean al monte, las cuales han surgido debido a su singular perfil.",
+        "image": "/assets/images/El_Pedraforca.webp"
+
+    },
+    {
+        "id": 10,
+        "nombre": "Castellar de n'Hug",
+        "descripcion": "Existen numerosos pueblos en el Pirineo catalán que recomendamos visitar. Castellar de n'Hug es uno de ellos, pero lo resaltamos aquí no solo por su hermosa apariencia, sino también porque en él nace el río Llobregat, ofreciendo un espectáculo impresionante de la madre naturaleza. Lo mejor de todo es que para disfrutar de estas vistas privilegiadas no tendrán que caminar mucho. Además, no podemos pasar por alto las dos iglesias románicas del pueblo, Santa Maria y Sant Vicenç.",
+        "image": "/assets/images/Castellar_de_Hug.webp"
+    },
+    {
+        "id": 11,
+        "nombre": "Parc Samà",
+        "descripcion": "Entre Cambrils y Montbrió se encuentra este parque, un auténtico tesoro de la arquitectura de jardines financiado por los indianos: impresionantes estanques, cascadas majestuosas, sinuosas sendas, y encantadores edificios de variados estilos y usos, se entrelazan por todo el paisaje. Esculturas elegantes, palmeras ondulantes, y fragantes naranjos completan la escena. Este parque, de estilo romántico y singular, alberga más de 1.500 especies vegetales en sus 14 hectáreas, donde también conviven diversas especies animales como ciervos, pavos reales y cotorras.",
+        "image": "/assets/images/Parc_Samà.webp"
+    },
+    {
+        "id": 12,
+        "nombre": "Sant Pere de Casserres",
+        "descripcion": "Te sugerimos visitar este lugar debido a su encantador monasterio de estilo románico sencillo. Su construcción comenzó en el año 1006 y fue consagrado en el 1050. El monasterio cuenta con una torre campanario que parece haberse negado a crecer, junto con una iglesia original, más ancha que larga, y un claustro recogido donde podrás encontrar sorpresas como tumbas antropomórficas a lo largo del recorrido. Además, su ubicación en un pintoresco meandro del río Ter añade aún más atractivo a este lugar.",
+        "image": "/assets/images/Sant_Pere_de_Casserres.webp"
+    },
+    {
+        "id": 13,
+        "nombre": "Besalú",
+        "descripcion": "En este pueblo, encontrarán patrimonio en cada esquina. Quizás lo más destacado sea el impresionante puente románico, tan fotografiado como magnífico. Sin embargo, también merecen una visita la sinagoga y el micvé, así como la iglesia-hospital de Sant Julià, el monasterio de Sant Pere, la iglesia de Sant Vicenç y la Casa Cornellà. Indudablemente, este pueblo es uno de los conjuntos medievales mejor conservados e interesantes de Cataluña. Es un lugar que ofrece actividades culturales suficientes para disfrutar al menos un día entero, explorando tranquilamente cada uno de sus rincones.",
+        "image": "/assets/images/Besalú.webp"
+    },
+    {
+        "id": 14,
+        "nombre": "Catedral de la Seu d'Urgell",
+        "descripcion": "Nos encontramos ante la única catedral románica catalana. A pesar de la magnificencia de su estructura y su ubicación en la capital de la comarca, los expertos señalan que sus características claramente italianas no influyeron en otras construcciones de la época, lo que la convierte en un templo único en Cataluña. El claustro con sus capiteles, el retablo de Sant Ermengol y las pinturas murales son solo algunos de los elementos que destacan al entrar en esta catedral de los Pirineos.",
+        "image": "/assets/images/Catedral_Seu_Urgell.webp"
+    },
+    {
+        "id": 15,
+        "nombre": "Masia Freixa de Terrassa",
+        "descripcion": "En el corazón de una de las ciudades más industriales y pobladas de Cataluña, Terrassa, se erige esta maravillosa joya del modernismo. Diseñada por el arquitecto Lluís Muncunill, esta impresionante obra encuentra su inspiración en la naturaleza, dando lugar a un edificio espectacular con un tejado ondulado y arcos catenarios. Aunque inicialmente concebido como una fábrica de hilaturas, finalmente se transformó en la residencia del industrial tarrasense Josep Freixa i Argemí.",
+        "image": "/assets/images/Masia_Freixa_de_Terrassa.webp"
+    },
+    {
+        "id": 16,
+        "nombre": "Seu Vella de Lleida",
+        "descripcion": "El perfil de Lleida se ha ido moldeando desde el siglo XIII hasta el día de hoy, atravesando múltiples adversidades históricas. Incluso Felipe V tuvo la intención de destruirla, pero su muerte impidió que su plan se llevara a cabo, permitiendo así la preservación de la Seu Vella. Esta estructura es sin duda un punto de referencia imprescindible al visitar la capital de la 'Terra Ferma'. En cuanto a su estilo arquitectónico, se ha acertado al describirlo como una combinación de formas románicas y la monumentalidad propia del gótico. Junto con el Castillo del Rei o La Suda, y la fortificación militar del área, la Seu Vella ha sido declarada Bien Cultural de Interés Nacional.",
+        "image": "/assets/images/Seu_Vella_de_Lleida.webp"
+    },
+    {
+        "id": 17,
+        "nombre": "La Fageda d'en Jordà",
+        "descripcion": "Si las brujas y los gnomos pudiesen elegir dónde vivir, seguramente pondrían entre sus preferencias este mágico bosque. Frondoso y oscuro por las copas de las hayas, este bosque creció a merced de la colada de lava del volcán Croscat. En una comarca ya de por sí bellísima por la multitud de volcanes (La Garrotxa), la Fageda d'en Jordà representa un lugar casi místico y silencioso, descrito por poetas e ideal para recorrer a pie, en bicicleta o a caballo.",
+        "image": "/assets/images/La_Fageda_Jordà.webp"
+    },
+    {
+        "id": 18,
+        "nombre": "Anfiteatro y circo romanos de Tarragona",
+        "descripcion": "Para los apasionados del todopoderoso Imperio Romano, una visita a la ciudad de Tarragona es imprescindible. Dos milenios después, en Tarraco -una de las urbes más importantes del Imperio en la península Ibérica-, aún se pueden encontrar importantes vestigios de aquellos tiempos. Destacan el Anfiteatro y el Circo, y un poco más alejado, un tramo del acueducto. Además, no dejen de visitar los museos de la ciudad, donde se conservan docenas de piezas y mosaicos ricos en detalles.",
+        "image": "/assets/images/Romanos_de_Tarragona.webp"
+    },
+    {
+        "id": 19,
+        "nombre": "Catedral de Girona",
+        "descripcion": "Majestuosa en lo alto de una larga escalinata (¡la misma que Jaime Lannister ascendía a caballo!), dominando la hermosa ciudad de Girona, si por fuera ya deslumbra, al cruzar su umbral os dejará boquiabiertos. La catedral ostenta la nave gótica más ancha del mundo, con casi 23 metros de ancho (y en términos de todos los estilos, solo es superada por la basílica de San Pedro del Vaticano). El claustro, los vitrales, las capillas, el Retaule Major, la torre de Carlo Magno y el museo de la catedral... todo en esta obra arquitectónica es digno de ser mencionado y admirado.",
+        "image": "/assets/images/Catedral_de_Girona.webp"
+    },
+    {
+        "id": 20,
+        "nombre": "Centro histórico de Pals",
+        "descripcion": "Pals destaca como una de las joyas arquitectónicas del Empordà, con edificaciones que datan de la Edad Media y han resistido el paso del tiempo con gracia. Sus calles y casas de piedra, arcos de medio punto dispersos, iglesias góticas y murallas evocan un pasado rico en historia. La Torre de les Hores, antigua torre del castillo, es emblemática de Pals y desde su punto más alto se disfruta de una vista espectacular que abarca los campos del Empordà, el Montgrí y las Islas Medes.",
+        "image": "/assets/images/Centro_histórico_de_Pals.webp"
+    },
+    {
+        "id": 21,
+        "nombre": "Barrio Gòtic de Barcelona",
+        "descripcion": "Los romanos ya se desplazaban por esta parte de la ciudad de Barcino, situada en la cima del Monte Tàber y sus alrededores. Si buscas con detenimiento, encontrarás algunas de las columnas del Templo de Augusto. A lo largo de los siglos, se han erigido los principales edificios civiles y religiosos de la ciudad, muchos de los cuales aún se mantienen en pie y en funcionamiento hoy en día, desde la majestuosa Catedral de Santa María del Pi hasta el imponente Palau de la Generalitat y la emblemática Casa de la Ciutat. La plaza del Rei es uno de los rincones más hermosos entre estas calles de Barcelona, una visita indispensable.",
+        "image": "/assets/images/Barrio_Gòtic_de_Barcelona.webp"
+    },
+    {
+        "id": 22,
+        "nombre": "Congosto de Mont Rebei",
+        "descripcion": "Es un impresionante desfiladero que se extiende a lo largo de dos comunidades autónomas: Cataluña y Aragón. El trayecto, que serpentea entre paredes de hasta 500 metros de altura, brinda vistas espectaculares. Esta ruta atraviesa la majestuosa Sierra del Montsec y sigue el curso del río Noguera Ribagorçana en su camino hacia los Pirineos. Se trata de una excursión adecuada para todos los niveles de habilidad, ya sean expertos o principiantes.",
+        "image": "/assets/images/Congosto_de_Mont_Rebei.webp"
+    },
+    {
+        "id": 23,
+        "nombre": "Peratallada",
+        "descripcion": "Algunos sostienen que el Empordà, en su totalidad, es una de las regiones más hermosas de Cataluña. Y con razón, ya que va más allá de sus playas, calas y pueblos de casas blancas junto al mar. A pocos kilómetros tierra adentro, encontramos lugares encantadores que han conservado su belleza a lo largo de los siglos, muchos de ellos con un encanto medieval. Peratallada es un claro ejemplo: es reconocido como un conjunto histórico-artístico y vale la pena perderse por sus pintorescas calles.",
+        "image": "/assets/images/Peratallada.webp"
+    },
+    {
+        "id": 24,
+        "nombre": "Jardines de Cap Roig",
+        "descripcion": "Uno de los jardines botánicos más hermosos de Cataluña se encuentra junto al mar, con el impresionante telón de fondo de la Costa Brava. En este enclave de 17 hectáreas, la naturaleza, el arte, la cultura y la historia convergen armoniosamente. Aquí se hallan más de mil especies botánicas procedentes de todos los rincones del mundo, así como esculturas de renombrados artistas tanto nacionales como internacionales. Ubicado entre los municipios de Palafrugell y Mont-ras, en la comarca del Baix Empordà (Girona), este jardín es un espacio único gracias a su singularidad.",
+        "image": "/assets/images/Jardines_de_Cap_Roig.webp"
+    },
+    {
+        "id": 25,
+        "nombre": "Montserrat",
+        "descripcion": "Otro de los lugares ampliamente reconocidos y prácticamente imprescindible de visitar al conocer Cataluña es Montserrat. No solo atrae a los devotos, sino que Montserrat es mucho más que su monasterio o la icónica talla de la Moreneta. Es también una montaña con formas geológicas sorprendentes y admirables, ofreciendo la oportunidad de realizar fascinantes recorridos a pie, ascender en cremallera o en dos funiculares, así como disfrutar de un telecabina y explorar un museo con una colección de pinturas de primer nivel.",
+        "image": "/assets/images/Montserrat.webp"
+    },
+    {
+        "id": 26,
+        "nombre": "Vila Vella de Tossa de Mar",
+        "descripcion": "Los ancianos del lugar, con miradas brillantes, todavía recuerdan cómo Ava Gardner paseaba por estas calles durante el rodaje de 'Pandora y el holandés errante'. Se dice que fue gracias a esta película, estrenada en 1950, que la Costa Brava se convirtió en un destino turístico de primer nivel. Desde entonces, las playas de las comarcas de Girona nunca volvieron a ser las mismas. Y no es para menos, el encanto de Tossa –tanto en la película como en la realidad– es simplemente cautivador, con sus murallas cercanas al mar y la prominente torre de Ses Hores destacando en el paisaje.",
+        "image": "/assets/images/Tossa_de_Mar.webp"
+    },
+    {
+        "id": 27,
+        "nombre": "Reales Colegios de Tortosa",
+        "descripcion": "El Renacimiento apenas dejó huella en Cataluña, pero encontramos un tesoro en Tortosa, la capital del Baix Ebre. Los Reales Colegios, construidos en el siglo XVI, son un conjunto arquitectónico declarado Bien Cultural de Interés Nacional. Destaca especialmente el patio central del Colegio de Sant Jaume y Sant Maties (o Colegio de Sant Lluís Gonzaga), único en su estilo renacentista en el país y de una calidad excepcional en todos sus detalles. Es un lugar que merece ser visitado obligatoriamente.",
+        "image": "/assets/images/Reales_Colegios.webp"
+    },
+    {
+        "id": 28,
+        "nombre": "Monasterio de Sant Cugat",
+        "descripcion": "El antiguo monasterio, que en su día fue el más importante del condado de Barcelona y cuya construcción se inició antes del año 1.000, conserva hoy todo su esplendor, destacando especialmente su claustro, uno de los más hermosos del país y un ejemplo emblemático del románico catalán. Este claustro está adornado con 144 capiteles esculpidos en piedra de Montjuïc. Además de su belleza arquitectónica, en el centro del claustro se pueden apreciar los restos de la primera basílica del lugar, datada en el siglo V d.C., donde según la tradición fue enterrado Sant Cugat.",
+        "image": "/assets/images/Monasterio_de_Sant_Cugat.webp"
+    },
+    {
+        "id": 29,
+        "nombre": "Cuevas de Benifallet",
+        "descripcion": "Nos adentramos en las profundidades de la tierra. Si eres amante de explorar cuevas con estalactitas y estalagmitas de formas mágicas e imposibles, es imprescindible que visites las dos cuevas abiertas al público en Benifallet: Meravelles, con un recorrido de poco más de medio kilómetro, y Dos, con más de 250 metros de longitud. Ambas fueron descubiertas en la segunda mitad del siglo XX. Son un espectáculo único en sí mismas, ideales para visitar en verano debido a la agradable frescura que se experimenta en su interior.",
+        "image": "/assets/images/Cuevas_de_Benifallet.webp"
+    },
+    {
+        "id": 30,
+        "nombre": "Plaza Mayor de Vic",
+        "descripcion": "Se la considera la plaza de Cataluña por excelencia. Espaciosa y repleta de edificios de interés, sus soportales son una de sus características más destacadas. Es posible que os dé la impresión de que el centro está muy desierto, sin árboles ni áreas de juego para niños; pero esto se debe a que aquí se monta el mercado semanal de los sábados, de gran afluencia, así como otras ferias y eventos a lo largo del año. Ahora ya lo sabéis, si queréis experimentar esta plaza en todo su esplendor, consultad el calendario y visitadla cuando haya más actividad.",
+        "image": "/assets/images/Plaza_Mayor_de_Vic.webp"
+    },
+    {
+        "id": 31,
+        "nombre": "Lago de Banyoles",
+        "descripcion": "Este lago, el más extenso de Catalunya, es tan emblemático que incluso da nombre a la comarca donde se sitúa. Recorrer sus orillas a pie o en bicicleta es una experiencia maravillosa para desconectar y encontrar paz. Sin embargo, ¡cuidado con el misterioso monstruo que se dice habita en sus aguas, al igual que en el lago Ness! Para los apasionados de la historia deportiva, es relevante destacar que este lago fue sede de las competiciones de remo durante los Juegos Olímpicos de Barcelona en 1992.Además, cuenta con áreas donde es posible disfrutar de un refrescante chapuzón.",
+        "image": "/assets/images/Lago_de_Banyoles.webp"
+    },
+    {
+        "id": 32,
+        "nombre": "Call de Girona",
+        "descripcion": "Considerada la mejor preservada de toda Europa, la judería de Girona se ubica en el corazón de la ciudad. Su construcción se inició en el siglo XII, siendo hogar de una próspera comunidad judía. Recorrer sus calles es sumergirse en el pasado, transportándose varios siglos atrás al instante. Vale la pena adentrarse en el Museo del Call, donde se desentraña la historia del judaísmo local. Además, para los seguidores de 'Juego de Tronos', este barrio les resultará familiar...",
+        "image": "/assets/images/Call_de_Girona.webp"
+    },
+    {
+        "id": 33,
+        "nombre": "Sagrada Familia",
+        "descripcion": "¿Qué más podemos añadir sobre la Sagrada Familia de Gaudí que no haya sido dicho ya? Visitar Barcelona sin acercarse a este templo es como viajar a París y perderse la vista de la Torre Eiffel. El fin de las obras parece estar cada vez más próximo, y ni siquiera las grúas ni las largas colas pueden opacar la majestuosidad de la principal creación de Gaudí, que merece ser apreciada tanto por fuera como por dentro.",
+        "image": "/assets/images/Sagrada_Familia.webp"
+    },
+    {
+        "id": 34,
+        "nombre": "Montgrony",
+        "descripcion": "Un sitio pintoresco, situado entre montañas, donde se venera la imagen de la Virgen de Montgrony desde el siglo IX. Lo primero que el visitante encuentra es un hostal con una escalera peculiar (se dice que fue mandada construir por el legendario conde Arnau), la cual conduce a la capilla de la Verge, tallada en la roca. Desde aquí, otra escalera os llevará a la iglesia románica de Sant Pere. Se puede acceder a este lugar mediante un agradable paseo desde Castellar de n'Hug o desde Gombrèn.",
+        "image": "/assets/images/Montgrony.webp"
+    },
+    {
+        "id": 35,
+        "nombre": "Siurana",
+        "descripcion": "La comarca del Priorat representa un universo aparte en el país, y en su seno se encuentra un enclave aún más reducido: el pueblo de Siurana y el embalse que se divisa desde él. Siurana se erige en un lugar aislado, prácticamente en el borde de un acantilado, sobre un peñón de roca caliza. El pueblo conserva sus antiguas casas de piedra, las cuales disfrutan del privilegio de ofrecer unas vistas impresionantes. Además, no faltan lugares de interés patrimonial como la iglesia románica de Santa María y los restos del castillo del walí Almira Alemoni.",
+        "image": "/assets/images/Siurana.webp"
+    },
+    {
+        "id": 36,
+        "nombre": "Sitges",
+        "descripcion": "¿Qué es lo que hace a Sitges tan encantadora? ¿Sus casas blancas, el mar que la rodea y sus 26 playas? ¿El arte que impregna cada rincón? ¿Tal vez sus museos tan originales e interesantes? Quizás sea el icónico perfil (tan fotografiado) que le brinda su iglesia, o la sensación de libertad y cosmopolitismo que se respira en sus calles. Incluso podría ser su luminosidad. Lo cierto es que, desde el siglo XIX, este pueblo al sur de Barcelona ha sido fuente de inspiración para numerosos artistas destacados, y son muchos los turistas que lo eligen como destino cada año.",
+        "image": "/assets/images/Sitges.webp"
+    },
+    {
+        "id": 37,
+        "nombre": "Montblanc",
+        "descripcion": "Es la capital de la comarca de Conca de Barberà, y su núcleo antiguo, muy bien conservado, fue declarado Conjunto Monumental y Artístico en 1947. De la villa ducal, título que ostenta desde la Edad Media, destacan numerosas construcciones, como el museo del Casal dels Josa, la deslumbrante iglesia gótica de Santa Maria la Major o el Pont Vell, de probable origen romano. Sin embargo, las murallas, con sus imponentes torres de elegante factura, merecen un lugar destacado, ya que aún hoy protegen por completo el centro histórico.",
+        "image": "/assets/images/Montblanc.webp"
+    },
+    {
+        "id": 38,
+        "nombre": "Rupit",
+        "descripcion": "En Cataluña, a los pueblos como Rupit se les denomina 'de belén', debido a sus antiguas casas de piedra con tejados rojizos y estrechas calles empedradas. Si a esto se le agrega la presencia de un tranquilo río con algunos patos y un pintoresco puente colgante (como es el caso), el escenario roza la perfección. Son pueblos —o en el caso de Rupit, una villa— que tal vez no cuentan con una iglesia que albergue el retablo más importante del país ni con una casa diseñada por el arquitecto más reconocido, pero que en su conjunto ostentan una belleza digna y admirable.",
+        "image": "/assets/images/Rupit.webp"
+    },
+    {
+        "id": 39,
+        "nombre": "Seu de Manresa",
+        "descripcion": "Si afirmábamos que la Seu Vella de Lleida define el perfil de la ciudad y constituye su construcción más emblemática, podemos utilizar las mismas palabras al hablar de la Seu de Manresa y su relación con la capital del Bages. Ubicada en el corazón de Cataluña y en el punto más elevado de la urbe, esta obra de estilo gótico sobresale tanto por su impresionante fachada como por los numerosos elementos de interés que alberga en su interior, que van desde las majestuosas columnas de la nave central hasta la enigmática cripta, pasando por los diversos retablos góticos.",
+        "image": "/assets/images/Seu_de_Manresa.webp"
+    },
+    {
+        "id": 40,
+        "nombre": "Monasterios cistercienses",
+        "descripcion": "Poblet, Santes Creus y Vallbona de les Monges conforman un triángulo histórico y patrimonial sin igual. Recomendamos dedicar al menos un par de días para visitar estos tres monasterios, dos de los cuales aún mantienen vida monástica. Además, en las cercanías se encuentran otros pueblos y lugares de interés dignos de explorar. Estos monasterios, cuya construcción se inició en el siglo XII, albergan una gran cantidad de detalles para contemplar, incluyendo los sepulcros de los reyes más destacados de la Corona de Aragón.",
+        "image": "/assets/images/Monasterios_cistercienses.webp"
+    },
+    {
+        "id": 41,
+        "nombre": "Empúries",
+        "descripcion": "Los griegos llegaron a la península a través de Empúries y quedaron tan impresionados que decidieron quedarse durante un largo período. Posteriormente, los romanos también arribaron y, al parecer, se sintieron igualmente atraídos por el lugar. Gracias a este legado histórico, hoy en día podemos disfrutar de fascinantes yacimientos arqueológicos de ambas civilizaciones en esta zona del golfo de Roses. Además, les recomiendo visitar el museo del recinto donde podrán admirar piezas de gran valor, destacando la estatua de Asclepio. Por otro lado, les sugiero dar un paseo junto al mar, desde L'Escala hasta Sant Martí d'Empúries.",
+        "image": "/assets/images/Empúries.webp"
+    },
+    {
+        "id": 42,
+        "nombre": "Santa Pau",
+        "descripcion": "Ubicada en el corazón del Parque Natural de la zona volcánica de La Garrotxa, la villa de Santa Pau se muestra ante el visitante como un lugar bucólico, conservando estructuras medievales y casas de piedra de un innegable valor arquitectónico. Su plaza Mayor porticada es un punto destacado, pero merece la pena explorar todo el conjunto, dejarse llevar por sus pintorescas callejuelas y descubrir los rincones más hermosos de este encantador lugar.",
+        "image": "/assets/images/Santa_Pau.webp"
+    },
+    {
+        "id": 43,
+        "nombre": "Miravet",
+        "descripcion": "Esta villa se yergue (casi literalmente) sobre las aguas, y en más de una ocasión, el incremento del caudal del Ebro ha causado algún que otro sobresalto y daño en las edificaciones. Además, las calles ascienden hasta alcanzar un castillo de origen musulmán, por lo que la estampa del conjunto parece haber sido diseñada por un urbanista de exquisito gusto o un director de fotografía.",
+        "image": "/assets/images/Miravet.webp"
+    },
+    {
+        "id": 44,
+        "nombre": "Beget",
+        "descripcion": "Aunque geográficamente se encuentra dentro de la región de la Alta Garrotxa, desde 1969 este encantador pueblo forma parte del municipio de Camprodon, en el Ripollès. Para llegar a él, deberán recorrer una sinuosa carretera, pero les aseguramos que el viaje valdrá la pena. En Beget, el tiempo parece haberse detenido, y todas sus calles y casas conforman un conjunto idílico. Si deciden visitarlo, no deben dejar de entrar en la iglesia románica de Sant Cristòfor, donde se encuentra la Majestat, una hermosa talla de madera policromada.",
+        "image": "/assets/images/Beget.webp"
+    },
+    {
+        "id": 45,
+        "nombre": "Prades",
+        "descripcion": "El color rojo predomina en las principales construcciones de esta pintoresca localidad, ubicada entre imponentes montañas. Su encanto se ve realzado por los vestigios de las antiguas murallas y el castillo de los condes de Prades, así como por la imponente presencia de la iglesia de Santa María la Mayor y numerosas casas de la zona. Recorrer el municipio con calma es imprescindible para adentrarse en sus pintorescos portales y disfrutar de agradables momentos en la plaza Mayor, donde destaca una fuente renacentista en forma de globo terráqueo que se erige como un símbolo emblemático.",
+        "image": "/assets/images/Prades.webp"
+    },
+    {
+        "id": 46,
+        "nombre": "Castellfollit de la Roca",
+        "descripcion": "Este pueblo gerundense se encuentra ubicado sobre un imponente acantilado. La monumental pared es el resultado de la erosión causada por los ríos Fluvià y Toronell sobre los vestigios de corrientes de lava que existieron en la región hace miles de años, las cuales han dejado una profunda huella en la historia local. Es un municipio pequeño pero de una belleza extraordinaria, capaz de transportarte a la época medieval.",
+        "image": "/assets/images/Castellfollit_de_la_Roca.webp"
+    },
+    {
+        "id": 47,
+        "nombre": "Valle de Núria",
+        "descripcion": "Recomendamos ascender en el teleférico desde Ribes de Freser o Queralbs, para así disfrutar de los paisajes de montaña mientras nos elevamos. Al llegar a la cima, con su lago y el santuario de la Virgen de Nuria, tendrás la oportunidad de pasear por estas laderas, respirar el aire puro y disfrutar del silencio, lejos del ruido de los coches. Los más curiosos pueden subir al telecabina y ascender aún más, alcanzando las altas cumbres. En invierno, podrás aprovechar para practicar esquí y admirar el manto blanco que cubre todo. Durante el resto del año, te sorprenderán los mil tonos de verde. Bienvenidos a este hermoso rincón de los Pirineos.",
+        "image": "/assets/images/Valle_de_Núria.webp"
+    },
+    {
+        "id": 48,
+        "nombre": "Delta del Ebro",
+        "descripcion": "¡Menudo revuelo arma el Ebro en su desembocadura! Los sedimentos que transporta este imponente río, el más caudaloso de la península Ibérica, se depositan aquí, creando una de las zonas húmedas más destacadas de toda Europa Occidental. Es un festín para las aves y un lugar perfecto para el cultivo de arroz, convirtiéndolo en un espacio natural único que no tiene parangón en Cataluña. Además de ofrecer innumerables senderos para recorrer a pie o en bicicleta, cuenta con numerosas casetas desde donde se pueden avistar las aves que habitan el Delta.",
+        "image": "/assets/images/Delta_del_Ebro.webp"
+    },
+    {
+        "id": 49,
+        "nombre": "Aigüestortes y Sant Maurici",
+        "descripcion": "Si decidís visitarlo, os encontraréis ante el único Parque Nacional en territorio catalán. Podéis adentraros en él desde distintos puntos, realizando excursiones a pie o en el todoterreno-taxi que ofrece el parque. Sea cual sea la ruta que elijáis, dentro de este espacio natural disfrutaréis de impresionantes paisajes de alta montaña, con prados, meandros y picos que superan los 3.000 metros de altura. Sin embargo, lo más fotografiado es la majestuosa vista del lago de Sant Maurici con la imponente montaña de Els Encantats al fondo.",
+        "image": "/assets/images/Aigüestortes_Sant_Maurici.webp"
+    },
+    {
+        "id": 50,
+        "nombre": "Valle de Boí",
+        "descripcion": "A lo largo de los Pirineos, se pueden encontrar numerosos ejemplos de arquitectura románica, pero es en el Valle de Boí donde este estilo alcanza su máximo esplendor. Por esta razón, no es sorprendente que la UNESCO haya reconocido y declarado como Patrimonio de la Humanidad al conjunto de iglesias de este valle. Es imprescindible recorrer los distintos pueblos (Cóll, Cardet, Barruera, Durro, Erill la Vall, Taüll, entre otros) uno tras otro, ya que cada uno alberga un tesoro único, ¡o incluso más de uno! En estos pueblos de postal, se puede apreciar la grandeza de lo sencillo rodeado por imponentes montañas.",
+        "image": "/assets/images/Valle_de_Boí.webp"
+    },
+    {
+        "id": 51,
+        "nombre": "Cap de Creus y Cadaqués",
+        "descripcion": "Se trata de un lugar excepcional en Cataluña: un paisaje casi lunar, donde las rocas han sido esculpidas por la Tramuntana y el mar embravecido. Es el punto más elevado del este del país, una península dentro de otra península, que sirvió de inspiración a Dalí. Y hablando del pintor, justo al lado del Cap de Creus se encuentra la hermosa población de Cadaqués, con sus casas blancas y su aroma mediterráneo. De hecho, Dalí adquirió una casa en Portlligat (Cadaqués) para ser el primer catalán en contemplar el amanecer cada mañana.",
+        "image": "/assets/images/Cap_de_Creus_y_Cadaqués.webp"
+    }
+
+  ]
+  

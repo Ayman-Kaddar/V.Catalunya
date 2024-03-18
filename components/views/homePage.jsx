@@ -2,7 +2,6 @@
 
 import Header from "../molecules/header/header";
 import Hero from "../molecules/hero/hero";
-import { useState, useEffect } from "react";
 const HomePage = () => {
 
   return (
