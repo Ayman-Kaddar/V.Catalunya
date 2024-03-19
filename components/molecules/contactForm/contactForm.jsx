@@ -1,5 +1,4 @@
 "use client";
-import RadioButton from "@/components/elements/radioButton/radioButton";
 import CheckBoxForm from "../../elements/checkBoxForm/checkBoxForm";
 import InputForm from "../../elements/inputForm/inputForm";
 import SubmittedToast from "../../elements/submittedToast/submittedToast";
@@ -9,7 +8,6 @@ import {
   validateField,
   validateEmail,
   validateCheck,
-  validateRadioOption,
 } from "@/utils/validateForm";
 import Loading from "@/components/elements/loading/loading";
 
@@ -38,7 +36,7 @@ const ContactForm = ({ openModalContactForm, setOpenModalContactForm }) => {
     return () => {
       document.removeEventListener("mousedown", checkIfClickedOutside);
     };
-  }, [openModalContactForm, , setOpenModalContactForm]);
+  }, [openModalContactForm, setOpenModalContactForm]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -130,104 +128,93 @@ const ContactForm = ({ openModalContactForm, setOpenModalContactForm }) => {
   };
 
   return (
-    <div className="flex fixed top-0 left-0 w-screen h-auto justify-center items-center bg-gray-700 bg-opacity-60 z-50">
+    <div className="fixed inset-0 flex justify-center items-center bg-gray-700 bg-opacity-60 z-50">
       {loading && <Loading />}
       {submitted && (
-        <div className="flex fixed top-0 left-0 w-screen h-auto justify-center items-center z-50">
-          <div
-            className={`flex w-auto h-auto justify-center items-center text-center`}
-          >
+        <div className="fixed inset-0 flex justify-center items-center z-50">
+          <div className="bg-white p-8 rounded-lg shadow-lg">
             <SubmittedToast type={submittedMessage} />
           </div>
         </div>
       )}
 
       <div
-        className={`flex flex-col w-auto min-w-[325px] max-w-[450px] h-[100vh] items-center text-white bg-black overflow-y-scroll md:overflow-y-auto py-4 z-30`}
+        className="flex flex-col w-full max-w-[450px] bg-black text-white p-4 rounded-lg z-30"
         ref={ref}
       >
-        <div className="flex w-full h-auto justify-end pr-8">
-          <button
-            onClick={handleCloseModal}
-            className="flex w-auto h-auto underline font-horizon "
-          >
+        <div className="flex justify-end pr-4">
+          <button onClick={handleCloseModal} className="text-white">
             X
           </button>
         </div>
-        <div className="flex flex-col w-full max-w-[400px] px-6 h-auto">
-          <h2 className="text-white text-2xl font-horizon uppercase py-8">
-            Cuéntanos
-          </h2>
-          <form
-            onSubmit={handleSubmit}
-            className="flex flex-col w-full h-auto font-notosans gap-4"
-            noValidate
-          >
-            <div className="flex flex-col w-full h-auto">
-              <div className="flex flex-col w-full h-auto ">
-                <div className="flex w-auto h-auto  text-lg">Nombre</div>
-                <InputForm
-                  id={"Name"}
-                  name={"Name"}
-                  type={"text"}
-                  inputValue={name}
-                  setInputValue={setName}
-                  required={true}
-                />
-              </div>
-              <div className="flex flex-col w-auto h-auto ">
-                <div className="flex w-auto h-auto  text-lg">Email</div>
-                <InputForm
-                  id={"Email"}
-                  name={"Email"}
-                  type={"text"}
-                  inputValue={email}
-                  setInputValue={setEmail}
-                  required={true}
-                />
-              </div>
-
-              <div className="flex w-auto h-auto pt-5">
-                Y detalla algo más de qué se trata para poderlo valorar:
-              </div>
-              <div className="flex w-auto h-auto ">
-                <TextAreaInput
-                  id={"message"}
-                  name={"message"}
-                  type={"textarea"}
-                  placeholder={"Escribe tu mensaje..."}
-                  inputValue={messageText}
-                  setInputValue={setMessageText}
-                  required={true}
-                />
-              </div>
-            </div>
-
-            <div className="flex w-full h-auto ">
-              <CheckBoxForm
-                id={"privacy_policy"}
-                name={"privacy_policy"}
-                labelText={{
-                  text: "Acepto la",
-                  link: "política de privacidad",
-                }}
-                inputValue={checkPrivacy}
-                setInputValue={setCheckPrivacy}
-                required={true}
-              />
-            </div>
-            <div className="text-red-500 text-lg font-semibold justify-center">
-              {errorText}
-            </div>
-            <div className="flex w-auto h-auto justify-center md:mt-5 md:pb-10">
-              <button type="submit" className={`flex w-auto h-auto py-3`}>
-                <span className="font-horizon uppercase underline font-semibold text-xl">
-                  Enviar
-                </span>
-              </button>
-            </div>
-          </form>
+        <div className="text-4xl font-bold text-center mt-8 mb-6">
+          Cuéntanos
         </div>
+        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <div>
+            <label className="flex flex-col w-auto h-auto text-lg uppercase font-semibold">
+              Nombre
+            </label>
+            <InputForm
+              id={"Name"}
+              name={"Name"}
+              type={"text"}
+              inputValue={name}
+              setInputValue={setName}
+              required={true}
+            />
+          </div>
+          <div>
+            <label className="flex flex-col w-auto h-auto text-lg uppercase font-semibold">
+              Email
+            </label>
+            <InputForm
+              id={"Email"}
+              name={"Email"}
+              type={"text"}
+              inputValue={email}
+              setInputValue={setEmail}
+              required={true}
+            />
+          </div>
+          <div>
+            <label className="flex flex-col w-auto h-auto text-lg uppercase font-semibold">
+              Mensaje
+            </label>
+            <TextAreaInput
+              id={"message"}
+              name={"message"}
+              type={"textarea"}
+              placeholder={"Escribe tu mensaje..."}
+              inputValue={messageText}
+              setInputValue={setMessageText}
+              required={true}
+            />
+          </div>
+          <div className="flex flex-row w-auto h-auto justify-center items-center font-semibold underline">
+            <CheckBoxForm
+              id={"privacy_policy"}
+              name={"privacy_policy"}
+              labelText={{
+                text: "Acepto la",
+                link: "política de privacidad",
+              }}
+              inputValue={checkPrivacy}
+              setInputValue={setCheckPrivacy}
+              required={true}
+            />
+          </div>
+          <div className="text-red-500 text-lg font-semibold text-center">
+            {errorText}
+          </div>
+          <div className="flex w-auto h-auto justify-center md:mt-5 md:pb-10">
+            <button type="submit" className={`flex w-auto h-auto py-3`}>
+              <span className="font-horizon uppercase underline font-semibold text-xl">
+                Enviar
+              </span>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );

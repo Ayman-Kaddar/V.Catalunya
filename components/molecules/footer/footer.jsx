@@ -6,19 +6,17 @@ const Footer = () => {
     <div className="flex flex-col flex-wrap-reverse md:flex-nowrap w-full h-auto z-10 px-[5%] pb-6 font-notosans bg-black text-white">
       <div className="flex flex-row flex-wrap-reverse md:flex-nowrap w-full h-auto justify-between">
         <div className="flex flex-col w-1/2 md:w-full h-auto">
-          <div className="hidden sm:flex flex-row mt-6  text-lg">
+          <div className="hidden sm:flex flex-row mt-6 text-2xl">
             <div className="flex w-auto h-auto items-center">
               <div className="flex cursor-default whitespace-nowrap">
-                Que visitar en catalunya?
+                Explora Cataluña
               </div>
             </div>
           </div>
           <div className="flex sm:hidden flex-row mt-6 text-lg">
             <div className="flex w-auto h-auto items-center">
               <div className="flex flex-col cursor-default whitespace-nowrap">
-                <div className="flex w-auto h-auto">
-                Que visitar en catalunya?
-                </div>
+                <div className="flex w-auto h-auto">Explora Cataluña</div>
               </div>
             </div>
           </div>

@@ -1,5 +1,4 @@
 "use client";
-import BreakPointsHelper from "../../elements/breakPointsHelper/breakPointsHelper";
 import Link from "next/link";
 import { useState } from "react";
 import ContactForm from "../contactForm/contactForm";
@@ -18,10 +17,10 @@ const Header = () => {
         <div className="flex h-auto w-auto pl-4">
           <Link href={"/"}>
             <div className="flex md:hidden lg:hidden xl:hidden flex-row h-auto w-auto text-sm">
-            Que visitar en catalunya?
+            Explora Cataluña
             </div>
             <div className="hidden md:flex flex-row h-auto w-auto text-lg">
-              Que visitar en catalunya?
+            Explora Cataluña
             </div>
           </Link>
         </div>
