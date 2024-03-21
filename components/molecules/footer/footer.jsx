@@ -9,14 +9,14 @@ const Footer = () => {
           <div className="hidden sm:flex flex-row mt-6 text-2xl">
             <div className="flex w-auto h-auto items-center">
               <div className="flex cursor-default whitespace-nowrap">
-                Explora Cataluña
+                Descubre Cataluña
               </div>
             </div>
           </div>
           <div className="flex sm:hidden flex-row mt-6 text-lg">
             <div className="flex w-auto h-auto items-center">
               <div className="flex flex-col cursor-default whitespace-nowrap">
-                <div className="flex w-auto h-auto">Explora Cataluña</div>
+                <div className="flex w-auto h-auto">Descubre Cataluña</div>
               </div>
             </div>
           </div>
@@ -24,6 +24,22 @@ const Footer = () => {
             <div className="flex w-auto h-8 items-center">
               <div className="flex cursor-default whitespace-nowrap">
                 2024 ®
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row text-lg">
+            <div className="flex w-auto h-8 items-center">
+              <div className="flex cursor-default whitespace-nowrap">
+                Email:&nbsp;
+                <a
+                  href="mailto:info@queverencatalunya.es"
+                  alt="mail"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:underline"
+                >
+                  info@queverencatalunya.es
+                </a>
               </div>
             </div>
           </div>

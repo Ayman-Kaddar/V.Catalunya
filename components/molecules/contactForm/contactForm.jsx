@@ -78,7 +78,7 @@ const ContactForm = ({ openModalContactForm, setOpenModalContactForm }) => {
     const subject = "Nuevo mensaje desde el formulario de contacto";
     //message is only used for mailFlag = 2
     const message = `Hola ${formData.name}, nuevo mensaje de test`;
-    const email = "theayman9@gmail.com";
+    const email = "info@queverencatalunya.es";
     const mailFlag = "1";
     try {
       const response = await fetch("/api/sendEmail/", {
