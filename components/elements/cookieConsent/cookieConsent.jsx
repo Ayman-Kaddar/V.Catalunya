@@ -72,7 +72,7 @@ const CookieConsent = () => {
             className={`flex px-4 py-3
             text-white text-lg font-notosans font-semibold justify-center 
             rounded-full
-            hover:bg-primary-500
+            hover:bg-gray-500
             border-[1px] border-white
             cursor-pointer active:scale-95`}
           >
@@ -85,7 +85,7 @@ const CookieConsent = () => {
             className={`flex px-4 py-3
             text-white text-lg font-notosans font-semibold justify-center 
             rounded-full
-            hover:bg-primary-500
+            hover:bg-gray-500
             border-[1px] border-white
             cursor-pointer active:scale-95`}
           >
