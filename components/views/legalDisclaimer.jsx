@@ -1,4 +1,4 @@
-import Link from "next/link";
+"use client";
 export default async function LegalDisclaimer() {
   return (
     <div className="flex flex-col w-full text-justify container mx-auto my-24 gap-4 px-8 font-notosans">
@@ -105,29 +105,27 @@ export default async function LegalDisclaimer() {
           </p>
         </div>
         <div className="flex flex-col w-full items-start mt-2 gap-4">
-          <p className="text-primary-100 text-lg pl-8">
-            <lu className="text-primary-100 text-lg">
-              <li>
-                Un uso de la información, Contenidos y/o Servicios y datos
-                ofrecidos por Que Ver En Catalunya sin que sea contrario a lo
-                dispuesto por las presentes Condiciones, la Ley, la moral o el
-                orden público, o que de cualquier otro modo puedan suponer
-                lesión de los derechos de terceros o del mismo funcionamiento
-                del Sitio Web.
-              </li>
-              <li>
-                La veracidad y licitud de las informaciones aportadas por el
-                Usuario en los formularios extendidos por Que Ver En Catalunya
-                para el acceso a ciertos Contenidos o Servicios ofrecidos por el
-                Sitio Web. En todo caso, el Usuario notificará de forma
-                inmediata a Que Ver En Catalunya acerca de cualquier hecho que
-                permita el uso indebido de la información registrada en dichos
-                formularios, tales como, pero no solo, el robo, extravío, o el
-                acceso no autorizado a identificadores y/o contraseñas, con el
-                fin de proceder a su inmediata cancelación.
-              </li>
-            </lu>
-          </p>
+          <ul className="text-primary-100 text-lg pl-8">
+            <li>
+              Un uso de la información, Contenidos y/o Servicios y datos
+              ofrecidos por Que Ver En Catalunya sin que sea contrario a lo
+              dispuesto por las presentes Condiciones, la Ley, la moral o el
+              orden público, o que de cualquier otro modo puedan suponer lesión
+              de los derechos de terceros o del mismo funcionamiento del Sitio
+              Web.
+            </li>
+            <li>
+              La veracidad y licitud de las informaciones aportadas por el
+              Usuario en los formularios extendidos por Que Ver En Catalunya
+              para el acceso a ciertos Contenidos o Servicios ofrecidos por el
+              Sitio Web. En todo caso, el Usuario notificará de forma inmediata
+              a Que Ver En Catalunya acerca de cualquier hecho que permita el
+              uso indebido de la información registrada en dichos formularios,
+              tales como, pero no solo, el robo, extravío, o el acceso no
+              autorizado a identificadores y/o contraseñas, con el fin de
+              proceder a su inmediata cancelación.
+            </li>
+          </ul>
         </div>
         <div className="flex flex-col w-full items-start mt-2 gap-4">
           <p className="text-primary-100 text-lg">
