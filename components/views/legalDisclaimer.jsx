@@ -1,4 +1,3 @@
-"use client";
 export default async function LegalDisclaimer() {
   return (
     <div className="flex flex-col w-full text-justify container mx-auto my-24 gap-4 px-8 font-notosans">
